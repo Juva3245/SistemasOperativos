@@ -1,1 +1,7 @@
 Un proceso es un programa en ejecución, incluyendo el valor del program counter, los registros y las variables.
+Los estados de un proceso son:
+Nuevo(New): Cuando el proceso es creado.
+Ejecutando(running): El rpoceso tiene asignado un procesador y esta ejecutando instrucciones.
+Bloqueado(waiting): El proceso esta esperando por un evento(que se complete un pedido de E/S o una señal).
+Listo(ready): El proceso esta listo para ejecutar, solo necesita del recurso procesador.
+Finalizado(terminated): El proceso finalizo su ejeciccion.
